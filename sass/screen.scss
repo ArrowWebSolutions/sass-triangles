@@ -1,0 +1,9 @@
+
+
+@mixin arrow() {
+	position: relative;
+
+	&:after {
+		position: absolute;
+	}
+}
